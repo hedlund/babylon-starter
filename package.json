@@ -1,0 +1,33 @@
+{
+  "name": "babylon-starter",
+  "version": "1.0.0",
+  "description": "Just my personal [BabylonJS](https://babylonjs.com) starter.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --config webpack.prod.js",
+    "lint": "eslint . --ext .ts,.tsx",
+    "start": "webpack serve --config webpack.dev.js"
+  },
+  "author": "Henrik Hedlund",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "css-loader": "^5.1.2",
+    "eslint": "^7.22.0",
+    "html-webpack-plugin": "^5.3.1",
+    "source-map-loader": "^2.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^4.2.0",
+    "@babylonjs/materials": "^4.2.0",
+    "pepjs": "^0.5.3"
+  }
+}
